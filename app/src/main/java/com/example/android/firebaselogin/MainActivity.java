@@ -16,7 +16,7 @@ import com.google.firebase.auth.FirebaseAuthException;
 public class MainActivity extends AppCompatActivity {
 
     String userMail,userPassword;
-    FirebaseAuth firebaseAuth;
+    private FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
