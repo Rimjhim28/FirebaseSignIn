@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 firebaseAuth.createUserWithEmailAndPassword(userMail,userPassword);
             }
         });
+        
         logIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
