@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 userMail = mail.getText().toString();
                 userPassword = mail.getText().toString();
                 firebaseAuth.signInWithEmailAndPassword(userMail,userPassword);
-            }});
+            }
+        });
     }
 }
